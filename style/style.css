@@ -1,1 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{margin: 0;
+    padding:0;}
+    #hero{
+
+        background-color: yellowgreen;
+        background-image: url(../images/hero-bg.png);
+        height: 615px;
+        /* width: 1920px; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hero .hero-content{
+
+        width: 685px;
+        /* margin-left: auto;
+        margin-right: auto; */
+    /* margin: 0 auto; */
+    }
+    #hero .hero-content .subtitle{
+        
+    }
